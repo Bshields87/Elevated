@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elevated | Home</title>
+    <link rel='icon' href='favicon.ico' type='image/x-icon'>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- nav -->
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <span class="logo-text"><i class="green fas fa-cannabis"></i> Elevated</span>
+        </a>
+
+        <!-- Search -->
+        <a href="#" class="white user-button ml-auto">
+            <i class="fas fa-search"></i>
+        </a>
+
+        <!-- User -->
+
+        <a href="login.html" class="white user-button">
+            <i class="fas fa-user"></i>
+        </a>
+
+        <!-- toggler -->
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-3">
+                <li class="nav-item active ml-auto">
+                    <a class="nav-link" href="index.html"><i class="green fas fa-home"></i> Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="dashboard.html"><i class="green fas fa-tachometer-alt"></i> Dashboard</a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link newsButton" data-toggle="collapse" data-target=".navbar-collapse.show" href="#news"><i
+                            class="green fas fa-newspaper"></i> News</a>
+                </li>
+                <li class="nav-item ml-auto">
+                    <a class="nav-link" href="#"><i class="green fas fa-sign-out-alt"></i> Logout</a>
+                </li>
+            </ul>
+
+
+        </div>
+
+    </nav>
+
+
+    <!-- jumbotron -->
+
+    <div class="jumbotron hero parallax vertical-center">
+        <div class="container">
+            <h1 class="display-4 white text-shadow text-center pb-1" style="font-family: 'Lobster', cursive;">Elevate your experience</h1>
+            <hr style="width:200px; border:1.5px solid #A6C54B;">
+            <!-- <h5 class="white text-shadow text-center" style="font-weight:400;">Cannabis strain search:</h5> -->
+            <form class="mySearchForm mb-5">
+                <input type="text" id="mySearch" placeholder="Search Cannabis Strains..." name="search" style="width:50%;">
+                <button class="search mt-2 text-center" type="search"><i class="fa fa-search"></i></button>
+            </form>
+            <div id="strainDiv" class="row pt-2 pb-4 pl-2 pr-2">
+                <div id="strainTitle" class="col-md-12"></div>
+                <div id="strain" class="col-md-8">
+                    <div id="strainRace"></div>
+                    <div id="strainDesc"></div>
+                    <div id="strainFlavors"></div>
+                    <div id="strainMedical"></div>
+                    <div id="strainPositive"></div>
+                    <div id="strainNegative"></div>
+                    <div id=beerIcon>
+                        <p id="beerName"></p>
+                    </div>
+
+
+                </div>
+                <div id="musicPlayer" class="col-md-4 text-right">
+                    <iframe class="musicPlayer" src="" width="300" height="380" frameborder="0" allowtransparency="true"
+                        allow="encrypted-media"></iframe>
+                </div>
+            </div>
+            <div class="arrow bounce">
+                <a class="fas fa-angle-double-down fa-2x newsButton" href="#news"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- News -->
+    <section id="news">
+        <div class="bg-grey pb-5">
+            <div class="container">
+                <div class="pt-5 pb-2">
+                    <div class="col-md-12 text-center">
+                        <h1>Industry News</h1>
+                    </div>
+                    <hr class="hr-green">
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div id="news-blog" class="card-deck pt-3 pb-5">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <button type="button" class="btn btn-success">Load More News</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark white">
+
+        <div class="bg-green">
+            <div class="container">
+
+                <!-- Grid row-->
+                <div class="row py-4 d-flex align-items-center">
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0">Get connected with us on social networks!</h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fab fa-facebook-f white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <!-- Google +-->
+                        <a class="gplus-ic">
+                            <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                        </a>
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram white-text"> </i>
+                        </a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="https://mdbootstrap.com/education/bootstrap/"> Elevated</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/javascript.js"></script>
+
+
+
+</body>
+
+</html>

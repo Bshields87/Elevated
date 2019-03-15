@@ -1,0 +1,309 @@
+.logo-text {
+  font-family: 'Lobster', cursive;
+  font-size:25px;
+}
+
+.hero {
+  margin-top:56px;
+}
+
+.nav>li{
+  text-align:right;
+}
+
+#strainDiv {
+  background: rgb(22,22,22,.7)!important;
+}
+.jumbotron {
+  border-radius: 0 !important;
+  margin-bottom:0 !important
+}
+
+.musicPlayer {
+  height:100%;
+}
+
+.cannabis {
+  /* background-image: url("")!important;  */
+  -webkit-background-size: 100% 100%;
+  -moz-background-size:100% 100%;
+  -o-background-size: 100% 100%;
+  background-size:100% 100%;
+  height:95vh;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 5px rgb(0,0,0,.6);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    box-shadow: 0 0 0 30px white inset !important;
+}
+
+.vertical-center {
+  min-height: 95%;  
+  min-height: 95vh;
+  display: flex;
+  align-items: center;
+}
+
+.white{
+  color:white;
+}
+form {
+text-align:center;
+}
+
+a {
+  color:#A6C54B;
+}
+
+h1 {
+  font-family: 'Crimson Text', serif;
+  margin:0px;
+}
+
+a:hover {
+  color:#A6C54B;
+}
+
+.white {
+    color:white;
+}
+
+.green {
+    color:#A6C54B;
+}
+
+.hr-green{
+  border-color:#A6C54B;
+}
+
+.bg-green {
+  background-color:#A6C54B;
+}
+
+.bg-grey {
+  background-color:#f3f3f3;
+}
+
+.bg-dark {
+  background-color:#212121!important;
+}
+
+.btn-outline-success{
+  color:#A6C54B!important;
+  border-color: #A6C54B!important;
+}
+
+.btn-outline-success:hover{
+  background-color: #A6C54B!important;
+  color:white!important;
+}
+
+.btn-success {
+  background-color: #A6C54B!important;
+  border-color: #A6C54B!important;
+}
+
+.btn-success:hover {
+  background-color:rgb(255,255,255,0)!important;
+  border-color: #A6C54B!important;
+  color:#A6C54B!important;
+}
+
+.bg-pattern {
+  height:300px;
+  background-image: url("../images/pattern2.png");
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(166,197,75, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-toggler {
+    border:none;
+  }
+  
+
+/* remove highlight */
+textarea:hover, 
+.navbar-toggle,
+.navbar-toggle:active,
+.navbar-toggle:focus,
+.custom-toggler,
+.custom-toggler:active,
+.custom-toggler:focus,
+input:hover, 
+input,
+input[type="text"],
+textarea:active, 
+input:active, 
+textarea:active,
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+.btn:focus,
+.btn:active:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="text"]:active,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus,
+input[id=mySearch]
+{
+    outline:0px !important;
+    outline:none !important;
+    -webkit-appearance:none!important;
+    box-shadow:none !important;
+}
+.bootstrap-select .btn:focus {
+  outline: none !important;
+}
+button.navbar-toggler.custom-toggler, button.navbar-toggler.custom-toggler:focus {
+  outline: none !important;
+}
+
+
+.hr-news {
+  margin: 50px 0px;
+}
+
+.card{
+  margin:10px 0px!important;
+}
+
+#articleImg {
+  border-bottom: 6px solid #A6C54B;
+  height:150px;
+  width:auto;
+  object-fit: cover;
+}
+
+#articleTitle {
+  font-size:18px; 
+  font-weight:600;
+  color:#333; 
+  margin:.5rem 0px;
+  line-height: 1.2em;
+}
+#articleTitle:hover {
+  text-decoration: none;
+  color:#A6C54B; 
+}
+
+#articleDesc {
+  line-height:1.2em;
+  font-size:14px;
+}
+
+#articleSourceDate {
+  font-size:12px;
+
+}
+
+.user-button {
+  padding:.25rem .75rem;
+  font-size:1.25rem;
+  line-height:1;
+  background-color:transparent;
+  border:1px solid transparent;
+  border-radius:.25rem
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/cannabis-bg.jpeg");
+
+  /* Set a specific height */
+  min-height: 95vh; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#beerIcon {
+
+  display: inline-block;
+  
+}
+#beerName, #mug {
+  line-height: 50px;
+}
+
+#mug {
+  vertical-align: middle;
+}
+
+
+.arrow {
+  position: absolute;
+  right:50%;
+  bottom:-10vh;
+  text-align: center;
+  margin: 8% 0;
+  text-decoration: none;
+}
+.arrow a:hover {
+  text-decoration: none;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-12px);
+  }
+}
+
+button.search{
+ border:none;
+}
+
+button.search:hover{
+  background:#A6C54B;
+  border:none;
+}
+
+button.search:hover i.fa-search{
+  color:white;
+
+}
+
+input#mySearch{
+  border:none;
+}
